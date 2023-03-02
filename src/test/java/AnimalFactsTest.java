@@ -7,8 +7,10 @@ public class AnimalFactsTest {
     public void getFactTest(){
         AnimalFacts animalFacts = new AnimalFacts();
 
-        Arrays.asList("Cat", "Dog", "Snake", "Spider")
-                .forEach(kind -> animalFacts.getFact(kind));
+//        Arrays.asList("Cat", "Dog", "Snake", "Spider")
+//                .forEach(kind -> animalFacts.getFact(kind));
 
+        Arrays.asList("Cat", "Dog", "Snake", "Spider")
+                .forEach(kind -> Animal.createAnimal(kind).getFact());
     }
 }
