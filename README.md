@@ -1,2 +1,2 @@
 # simple-oop-example
-refactror conditionals with polymorphism 
+Refactor conditionals with polymorphism example
